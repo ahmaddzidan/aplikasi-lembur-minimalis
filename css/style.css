@@ -1,0 +1,127 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Tahoma'
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+	color: #222;
+	text-decoration: none;
+}
+
+input{
+	border:1px solid #ddd;
+	padding: 5px 10px;
+	width: 75%
+}
+hr{
+	border: 0;
+	border-bottom: 1px dashed #ccc;
+	background: #999;
+	margin: 20px 0;
+}
+
+h2{
+	font-weight: 700;
+	margin:5px 0;
+	font-size: 18px;
+}
+
+.text-center{
+	display: block;
+	text-align: center;
+}
+.text-left{
+	display: block;
+	text-align: left;
+}
+.container{
+	width: 960px;
+	border:1px solid #ccc;
+	margin: 150px auto 0;
+	padding:10px 10px 25px;
+}
+
+table{
+	width: 100%;
+}
+
+table tr th{
+	font-weight: 700
+}
+table tr th,
+table tr td{
+	border:1px solid #ddd;
+	padding: 15px;
+}
+
+
+table.table-lembur{
+	margin-top: 20px;
+}
+
+.btn{
+	padding: 8px 15px;
+	color: #FFF;
+	margin: 0 2px;
+	cursor: pointer;
+}
+
+.btn-blue{
+	border:1px solid #2980B9;
+	background-color: #3498DB;
+}
+.btn-blue:hover{
+	background-color: #2980B9;
+}
+.btn-red{
+	border:1px solid #C0392B;
+	background-color: #E74C3C
+}
+.btn-red:hover{
+	background-color:#C0392B
+}
