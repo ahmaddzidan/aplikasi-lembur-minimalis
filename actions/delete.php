@@ -14,13 +14,13 @@
 
 include '../config/database.php';
 
-$sql = "DELETE FROM tbl_warga WHERE id='$_GET[id]'";
+$sql = "DELETE FROM tbl_pegawai WHERE id='$_GET[id]'";
 
 if(mysql_query($sql))
 {
 	$notif = 'Berhasil menghapus data!';
 
-	header('location:../list.php?msg=' . base64_encode($notif));
+	header('location:../daftar-pegawai.php?msg=' . base64_encode($notif));
 }
 else
 {
