@@ -13,6 +13,11 @@ $num = mysql_num_rows($res);
 </head>
 <body>
 	<div class="container">
+	<ul class="navigation">
+		<li><a href="index.php">Dashboard</a></li>
+		<li><a href="daftar-pegawai.php" class="active">Daftar Pegawai</a></li>
+		<li><a href="daftar-lembur.php">Daftar Lembur</a></li>
+	</ul>
 		<h2 class="text-center">Selamat Datang di Aplikasi Lembur PT. ATE SEJAHTERA</h2>
 		<hr>
 		<table class="table-lembur">

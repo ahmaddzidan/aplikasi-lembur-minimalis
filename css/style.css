@@ -53,7 +53,9 @@ a{
 	text-decoration: none;
 }
 
-input{
+input[type='text'],
+textarea,
+select{
 	border:1px solid #ddd;
 	padding: 5px 10px;
 	width: 75%
@@ -84,6 +86,8 @@ h2{
 	border:1px solid #ccc;
 	margin: 150px auto 0;
 	padding:10px 10px 25px;
+	position: relative;
+	background-color: #FFF
 }
 
 table{
@@ -109,6 +113,7 @@ table.table-lembur{
 	color: #FFF;
 	margin: 0 2px;
 	cursor: pointer;
+	font-size: 90%
 }
 
 .btn-blue{
@@ -124,4 +129,26 @@ table.table-lembur{
 }
 .btn-red:hover{
 	background-color:#C0392B
+}
+
+
+.navigation{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position:absolute;
+	top: -25px;
+	z-index: -1
+}
+.navigation li{
+	display:inline-block;
+}
+.navigation li a{
+	padding: 5px 15px 8px;
+	border:1px solid #ddd;
+}
+.navigation li a.active{
+	border:1px solid #2980B9;
+	background-color: #3498DB;
+	color: #fff;
 }
